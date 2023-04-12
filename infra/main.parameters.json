@@ -1,0 +1,30 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "name": {
+      "value": "${AZURE_ENV_NAME}"
+    },
+    "location": {
+      "value": "${AZURE_LOCATION}"
+    },
+    "principalId": {
+      "value": "${AZURE_PRINCIPAL_ID}"
+    },
+    "checkoutImageName": {
+      "value": "${SERVICE_CHECKOUT_IMAGE_NAME}"
+    },
+    "baconImageName": {
+      "value": "${SERVICE_BACON_IMAGE_NAME}"
+    },
+    "eggsImageName": {
+      "value": "${SERVICE_EGGS_IMAGE_NAME}"
+    },
+    "toastImageName": {
+      "value": "${SERVICE_TOAST_IMAGE_NAME}"
+    },
+    "deliveryImageName": {
+      "value": "${SERVICE_DELIVERY_IMAGE_NAME}"
+    }
+  }
+}

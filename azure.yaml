@@ -1,0 +1,27 @@
+# yaml-language-server: $schema=https://azuresdkreleasepreview.blob.core.windows.net/azd/schema/azure.yaml.json
+
+name: dapr-ps-demo
+metadata:
+  template: pubsub-dapr-csharp-servicebus@0.0.1-beta
+services:
+  checkout:
+    project: checkout
+    dist: build
+    language: csharp
+    host: containerapp
+  bacon:
+    project: processor_bacon
+    language: csharp
+    host: containerapp
+  eggs:
+    project: processor_eggs
+    language: csharp
+    host: containerapp
+  toast:
+    project: processor_toast
+    language: csharp
+    host: containerapp
+  delivery:
+    project: delivery
+    language: csharp
+    host: containerapp
