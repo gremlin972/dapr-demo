@@ -16,4 +16,4 @@ dapr run --app-id checkout --log-level error --resources-path ../components/ -- 
 ### References
 
 - [original repo](https://github.com/dapr/quickstarts/tree/master/pub_sub/csharp/sdk)
-- [Azure deploy tutorial] (https://learn.microsoft.com/en-us/azure/container-apps/microservices-dapr-pubsub?pivots=csharp)
+- [Azure deploy tutorial](https://learn.microsoft.com/en-us/azure/container-apps/microservices-dapr-pubsub?pivots=csharp)
